@@ -1,0 +1,2570 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1010.1014                               -->
+<workbook original-version='18.1' source-build='2024.3.0 (20243.24.1010.1014)' source-platform='win' version='18.1' xml:base='https://public.tableau.com' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='absentanalysis' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='attendance data  (Excel Project (Recovered) (Recovered) (Recovered))' inline='true' name='federated.0khhhu60k5odaw11ga3u10tg5aaf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Excel Project (Recovered) (Recovered) (Recovered)' name='excel-direct.1vo9saq1378acf199k33e0kwotgq'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='E:/data science/Excel Project (Recovered) (Recovered) (Recovered).xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1vo9saq1378acf199k33e0kwotgq' name='attendance data ' table='[&apos;attendance data $&apos;]' type='table'>
+          <columns gridOrigin='A1:AP33:no:A1:AP33:0' header='yes' outcome='2'>
+            <column datatype='integer' name='S.No' ordinal='0' />
+            <column datatype='integer' name='Employee ID' ordinal='1' />
+            <column datatype='string' name='Employee Name' ordinal='2' />
+            <column datatype='string' name='Designation' ordinal='3' />
+            <column datatype='string' name='Manager' ordinal='4' />
+            <column datatype='string' name='1-Sep-24' ordinal='5' />
+            <column datatype='string' name='2-Sep-24' ordinal='6' />
+            <column datatype='string' name='3-Sep-24' ordinal='7' />
+            <column datatype='string' name='4-Sep-24' ordinal='8' />
+            <column datatype='string' name='5-Sep-24' ordinal='9' />
+            <column datatype='string' name='6-Sep-24' ordinal='10' />
+            <column datatype='string' name='7-Sep-24' ordinal='11' />
+            <column datatype='string' name='8-Sep-24' ordinal='12' />
+            <column datatype='string' name='9-Sep-24' ordinal='13' />
+            <column datatype='string' name='10-Sep-24' ordinal='14' />
+            <column datatype='string' name='11-Sep-24' ordinal='15' />
+            <column datatype='string' name='12-Sep-24' ordinal='16' />
+            <column datatype='string' name='13-Sep-24' ordinal='17' />
+            <column datatype='string' name='14-Sep-24' ordinal='18' />
+            <column datatype='string' name='15-Sep-24' ordinal='19' />
+            <column datatype='string' name='16-Sep-24' ordinal='20' />
+            <column datatype='string' name='17-Sep-24' ordinal='21' />
+            <column datatype='string' name='18-Sep-24' ordinal='22' />
+            <column datatype='string' name='19-Sep-24' ordinal='23' />
+            <column datatype='string' name='20-Sep-24' ordinal='24' />
+            <column datatype='string' name='21-Sep-24' ordinal='25' />
+            <column datatype='string' name='22-Sep-24' ordinal='26' />
+            <column datatype='string' name='23-Sep-24' ordinal='27' />
+            <column datatype='string' name='24-Sep-24' ordinal='28' />
+            <column datatype='string' name='25-Sep-24' ordinal='29' />
+            <column datatype='string' name='26-Sep-24' ordinal='30' />
+            <column datatype='string' name='27-Sep-24' ordinal='31' />
+            <column datatype='string' name='28-Sep-24' ordinal='32' />
+            <column datatype='string' name='29-Sep-24' ordinal='33' />
+            <column datatype='string' name='30-Sep-24' ordinal='34' />
+            <column datatype='integer' name='Present' ordinal='35' />
+            <column datatype='integer' name='Casual Leave' ordinal='36' />
+            <column datatype='integer' name='Sick Leave' ordinal='37' />
+            <column datatype='integer' name='Absent' ordinal='38' />
+            <column datatype='integer' name='Weekend Leave' ordinal='39' />
+            <column datatype='integer' name='Total Days' ordinal='40' />
+            <column datatype='integer' name='Total Absent' ordinal='41' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:AP33:no:A1:AP33:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>S.No</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[S.No]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>S.No</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employee ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Employee ID]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>Employee ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Employee Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Employee Name]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>Employee Name</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Designation</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Designation]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>Designation</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Manager</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Manager]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>Manager</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>1-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[1-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>1-Sep-24</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>2-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[2-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>2-Sep-24</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>3-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[3-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>3-Sep-24</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>4-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[4-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>4-Sep-24</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>5-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[5-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>5-Sep-24</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>6-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[6-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>6-Sep-24</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>7-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[7-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>7-Sep-24</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>8-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[8-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>8-Sep-24</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>9-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[9-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>9-Sep-24</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>10-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[10-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>10-Sep-24</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>11-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[11-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>11-Sep-24</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>12-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[12-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>12-Sep-24</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>13-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[13-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>13-Sep-24</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>14-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[14-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>14-Sep-24</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>15-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[15-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>15-Sep-24</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>16-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[16-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>16-Sep-24</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>17-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[17-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>17-Sep-24</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>18-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[18-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>18-Sep-24</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>19-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[19-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>19-Sep-24</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>20-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[20-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>20-Sep-24</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>21-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[21-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>21-Sep-24</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>22-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[22-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>22-Sep-24</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>23-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[23-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>23-Sep-24</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>24-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[24-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>24-Sep-24</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>25-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[25-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>25-Sep-24</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>26-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[26-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>26-Sep-24</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>27-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[27-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>27-Sep-24</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>28-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[28-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>28-Sep-24</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>29-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[29-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>29-Sep-24</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>30-Sep-24</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[30-Sep-24]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>30-Sep-24</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Present</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Present]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>Present</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Casual Leave</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Casual Leave]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>Casual Leave</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sick Leave</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sick Leave]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>Sick Leave</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Absent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Absent]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>Absent</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Weekend Leave</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Weekend Leave]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>Weekend Leave</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Days</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Days]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>Total Days</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Absent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Absent]</local-name>
+            <parent-name>[attendance data ]</parent-name>
+            <remote-alias>Total Absent</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='total present days apt sick leave' datatype='integer' name='[Calculation_750412318588157952]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Casual Leave] - [Sick Leave]' />
+      </column>
+      <column datatype='integer' name='[Employee ID]' role='dimension' type='ordinal' />
+      <column datatype='string' name='[Manager]' role='dimension' type='nominal' />
+      <column caption='attendance data ' datatype='table' name='[__tableau_internal_object_id__].[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]' role='measure' type='quantitative' />
+      <column-instance column='[Manager]' derivation='None' name='[none:Manager:nk]' pivot='key' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/hp/AppData/Local/Temp/TableauTemp/#TableauTemp_1lhetba1f3ninr12xnzcd0abq5yw.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='12/30/2024 07:14:08 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>S.No</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[S.No]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>S.No</remote-alias>
+              <ordinal>0</ordinal>
+              <family>attendance data </family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employee ID</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Employee ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Employee ID</remote-alias>
+              <ordinal>1</ordinal>
+              <family>attendance data </family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Employee Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Employee Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Employee Name</remote-alias>
+              <ordinal>2</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Designation</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Designation]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Designation</remote-alias>
+              <ordinal>3</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Manager</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Manager]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Manager</remote-alias>
+              <ordinal>4</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>1-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[1-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>1-Sep-24</remote-alias>
+              <ordinal>5</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>2-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[2-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>2-Sep-24</remote-alias>
+              <ordinal>6</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>3-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[3-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>3-Sep-24</remote-alias>
+              <ordinal>7</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>4-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[4-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>4-Sep-24</remote-alias>
+              <ordinal>8</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>5-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[5-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>5-Sep-24</remote-alias>
+              <ordinal>9</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>6-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[6-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>6-Sep-24</remote-alias>
+              <ordinal>10</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>7-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[7-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>7-Sep-24</remote-alias>
+              <ordinal>11</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>8-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[8-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>8-Sep-24</remote-alias>
+              <ordinal>12</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>9-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[9-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>9-Sep-24</remote-alias>
+              <ordinal>13</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>10-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[10-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>10-Sep-24</remote-alias>
+              <ordinal>14</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>11-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[11-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>11-Sep-24</remote-alias>
+              <ordinal>15</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>12-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[12-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>12-Sep-24</remote-alias>
+              <ordinal>16</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>13-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[13-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>13-Sep-24</remote-alias>
+              <ordinal>17</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>14-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[14-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>14-Sep-24</remote-alias>
+              <ordinal>18</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>15-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[15-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>15-Sep-24</remote-alias>
+              <ordinal>19</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>16-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[16-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>16-Sep-24</remote-alias>
+              <ordinal>20</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>17-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[17-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>17-Sep-24</remote-alias>
+              <ordinal>21</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>18-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[18-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>18-Sep-24</remote-alias>
+              <ordinal>22</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>19-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[19-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>19-Sep-24</remote-alias>
+              <ordinal>23</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>20-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[20-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>20-Sep-24</remote-alias>
+              <ordinal>24</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>21-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[21-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>21-Sep-24</remote-alias>
+              <ordinal>25</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>22-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[22-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>22-Sep-24</remote-alias>
+              <ordinal>26</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>23-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[23-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>23-Sep-24</remote-alias>
+              <ordinal>27</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>24-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[24-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>24-Sep-24</remote-alias>
+              <ordinal>28</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>25-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[25-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>25-Sep-24</remote-alias>
+              <ordinal>29</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>26-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[26-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>26-Sep-24</remote-alias>
+              <ordinal>30</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>27-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[27-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>27-Sep-24</remote-alias>
+              <ordinal>31</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>28-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[28-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>28-Sep-24</remote-alias>
+              <ordinal>32</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>29-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[29-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>29-Sep-24</remote-alias>
+              <ordinal>33</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>30-Sep-24</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[30-Sep-24]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>30-Sep-24</remote-alias>
+              <ordinal>34</ordinal>
+              <family>attendance data </family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Present</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Present]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Present</remote-alias>
+              <ordinal>35</ordinal>
+              <family>attendance data </family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Casual Leave</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Casual Leave]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Casual Leave</remote-alias>
+              <ordinal>36</ordinal>
+              <family>attendance data </family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sick Leave</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Sick Leave]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sick Leave</remote-alias>
+              <ordinal>37</ordinal>
+              <family>attendance data </family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Absent</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Absent]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Absent</remote-alias>
+              <ordinal>38</ordinal>
+              <family>attendance data </family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>12</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Weekend Leave</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Weekend Leave]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Weekend Leave</remote-alias>
+              <ordinal>39</ordinal>
+              <family>attendance data </family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Days</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Days]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Days</remote-alias>
+              <ordinal>40</ordinal>
+              <family>attendance data </family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Absent</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Absent]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Absent</remote-alias>
+              <ordinal>41</ordinal>
+              <family>attendance data </family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>14</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[attendance data _BA7FF9F0EA544001A09FD404CEC18F46]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Manager:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;=IF(D32=\&quot;HR Manager\&quot;, \&quot;Sylvia\&quot;,
+IF(D32=\&quot;Sales Manager\&quot;, \&quot;Agatha\&quot;,
+IF(D32=\&quot;Financial Analyst\&quot;, \&quot;Rocky\&quot;,
+IF(D32=\&quot;Marketing Specialist\&quot;, \&quot;Bucky\&quot;,
+IF(D32=\&quot;Executive Officer\&quot;, \&quot;Leo\&quot;,
+IF(D32=\&quot;Director\&quot;, \&quot;Helan\&quot;, \&quot;Unknown\&quot;))))))&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Leo&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Helan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Sylvia&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Bucky&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Rocky&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Agatha&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='attendance data ' id='attendance data _BA7FF9F0EA544001A09FD404CEC18F46'>
+            <properties context=''>
+              <relation connection='excel-direct.1vo9saq1378acf199k33e0kwotgq' name='attendance data ' table='[&apos;attendance data $&apos;]' type='table'>
+                <columns gridOrigin='A1:AP33:no:A1:AP33:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='S.No' ordinal='0' />
+                  <column datatype='integer' name='Employee ID' ordinal='1' />
+                  <column datatype='string' name='Employee Name' ordinal='2' />
+                  <column datatype='string' name='Designation' ordinal='3' />
+                  <column datatype='string' name='Manager' ordinal='4' />
+                  <column datatype='string' name='1-Sep-24' ordinal='5' />
+                  <column datatype='string' name='2-Sep-24' ordinal='6' />
+                  <column datatype='string' name='3-Sep-24' ordinal='7' />
+                  <column datatype='string' name='4-Sep-24' ordinal='8' />
+                  <column datatype='string' name='5-Sep-24' ordinal='9' />
+                  <column datatype='string' name='6-Sep-24' ordinal='10' />
+                  <column datatype='string' name='7-Sep-24' ordinal='11' />
+                  <column datatype='string' name='8-Sep-24' ordinal='12' />
+                  <column datatype='string' name='9-Sep-24' ordinal='13' />
+                  <column datatype='string' name='10-Sep-24' ordinal='14' />
+                  <column datatype='string' name='11-Sep-24' ordinal='15' />
+                  <column datatype='string' name='12-Sep-24' ordinal='16' />
+                  <column datatype='string' name='13-Sep-24' ordinal='17' />
+                  <column datatype='string' name='14-Sep-24' ordinal='18' />
+                  <column datatype='string' name='15-Sep-24' ordinal='19' />
+                  <column datatype='string' name='16-Sep-24' ordinal='20' />
+                  <column datatype='string' name='17-Sep-24' ordinal='21' />
+                  <column datatype='string' name='18-Sep-24' ordinal='22' />
+                  <column datatype='string' name='19-Sep-24' ordinal='23' />
+                  <column datatype='string' name='20-Sep-24' ordinal='24' />
+                  <column datatype='string' name='21-Sep-24' ordinal='25' />
+                  <column datatype='string' name='22-Sep-24' ordinal='26' />
+                  <column datatype='string' name='23-Sep-24' ordinal='27' />
+                  <column datatype='string' name='24-Sep-24' ordinal='28' />
+                  <column datatype='string' name='25-Sep-24' ordinal='29' />
+                  <column datatype='string' name='26-Sep-24' ordinal='30' />
+                  <column datatype='string' name='27-Sep-24' ordinal='31' />
+                  <column datatype='string' name='28-Sep-24' ordinal='32' />
+                  <column datatype='string' name='29-Sep-24' ordinal='33' />
+                  <column datatype='string' name='30-Sep-24' ordinal='34' />
+                  <column datatype='integer' name='Present' ordinal='35' />
+                  <column datatype='integer' name='Casual Leave' ordinal='36' />
+                  <column datatype='integer' name='Sick Leave' ordinal='37' />
+                  <column datatype='integer' name='Absent' ordinal='38' />
+                  <column datatype='integer' name='Weekend Leave' ordinal='39' />
+                  <column datatype='integer' name='Total Days' ordinal='40' />
+                  <column datatype='integer' name='Total Absent' ordinal='41' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Times New Roman' italic='true'>Employees in each department</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='attendance data  (Excel Project (Recovered) (Recovered) (Recovered))' name='federated.0khhhu60k5odaw11ga3u10tg5aaf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0khhhu60k5odaw11ga3u10tg5aaf'>
+            <column datatype='string' name='[Employee Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Manager]' role='dimension' type='nominal' />
+            <column-instance column='[Employee Name]' derivation='Count' name='[cnt:Employee Name:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Employee Name]' derivation='None' name='[none:Employee Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Manager]' derivation='None' name='[none:Manager:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Employee Name:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='%null%' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Aaron&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Abraham&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Adolf&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Agustin&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Albert&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Barack&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Barin&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Barrett&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Benjamin&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Bernard&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Cadman&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Caleb&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Cayden&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Chad&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Coen&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Dangelo&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Daniel&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Denzel&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Derik&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Duke&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Eason&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Edric&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Edward&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Emmot&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Ethan&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Oliver&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Oscar&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;patrick&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Ragnar&quot;' />
+              <groupfilter function='member' level='[none:Employee Name:nk]' member='&quot;Zayn&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Manager:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Manager:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Manager:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Manager:nk]' member='&quot;=IF(D32=\&quot;HR Manager\&quot;, \&quot;Sylvia\&quot;,&#10;IF(D32=\&quot;Sales Manager\&quot;, \&quot;Agatha\&quot;,&#10;IF(D32=\&quot;Financial Analyst\&quot;, \&quot;Rocky\&quot;,&#10;IF(D32=\&quot;Marketing Specialist\&quot;, \&quot;Bucky\&quot;,&#10;IF(D32=\&quot;Executive Officer\&quot;, \&quot;Leo\&quot;,&#10;IF(D32=\&quot;Director\&quot;, \&quot;Helan\&quot;, \&quot;Unknown\&quot;))))))&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Manager:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[cnt:Employee Name:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Employee Name:nk]</column>
+            <column>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Manager:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[cnt:Employee Name:qk]' palette='blue_teal_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[cnt:Employee Name:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Manager:nk]</rows>
+        <cols>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[cnt:Employee Name:qk]</cols>
+      </table>
+      <simple-id uuid='{EFB33E5A-E724-4593-931F-B3E2F1BDB67D}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Times New Roman' italic='true'>Total absent under each manager</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='attendance data  (Excel Project (Recovered) (Recovered) (Recovered))' name='federated.0khhhu60k5odaw11ga3u10tg5aaf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0khhhu60k5odaw11ga3u10tg5aaf'>
+            <column datatype='string' name='[Manager]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Total Absent]' role='measure' type='quantitative' />
+            <column-instance column='[Manager]' derivation='None' name='[none:Manager:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Total Absent]' derivation='Sum' name='[sum:Total Absent:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Manager:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Manager:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Manager:nk]' member='%null%' />
+                <groupfilter function='member' level='[none:Manager:nk]' member='&quot;=IF(D32=\&quot;HR Manager\&quot;, \&quot;Sylvia\&quot;,&#10;IF(D32=\&quot;Sales Manager\&quot;, \&quot;Agatha\&quot;,&#10;IF(D32=\&quot;Financial Analyst\&quot;, \&quot;Rocky\&quot;,&#10;IF(D32=\&quot;Marketing Specialist\&quot;, \&quot;Bucky\&quot;,&#10;IF(D32=\&quot;Executive Officer\&quot;, \&quot;Leo\&quot;,&#10;IF(D32=\&quot;Director\&quot;, \&quot;Helan\&quot;, \&quot;Unknown\&quot;))))))&quot;' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Manager:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Rocky&quot;</bucket>
+              <bucket>&quot;Bucky&quot;</bucket>
+              <bucket>&quot;Helan&quot;</bucket>
+              <bucket>&quot;Agatha&quot;</bucket>
+              <bucket>&quot;Sylvia&quot;</bucket>
+              <bucket>&quot;Leo&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Manager:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' field='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Manager:nk]' value='22' />
+            <format attr='width' value='150' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[sum:Total Absent:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[sum:Total Absent:qk]' />
+              <text column='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[sum:Total Absent:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Manager:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{24D051A0-9516-4E1D-92B8-B1F6D884F5D7}' />
+    </worksheet>
+    <worksheet name='Total absent each dept'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontname='Times New Roman' italic='true'>Leave from each department</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='attendance data  (Excel Project (Recovered) (Recovered) (Recovered))' name='federated.0khhhu60k5odaw11ga3u10tg5aaf' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0khhhu60k5odaw11ga3u10tg5aaf'>
+            <column datatype='string' name='[Designation]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Present]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Total Absent]' role='measure' type='quantitative' />
+            <column-instance column='[Designation]' derivation='None' name='[none:Designation:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Present]' derivation='Sum' name='[sum:Present:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Total Absent]' derivation='Sum' name='[sum:Total Absent:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Designation:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Designation:nk]' />
+              <groupfilter function='member' level='[none:Designation:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Designation:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[sum:Total Absent:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Designation:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[sum:Present:qk]' palette='red_gold_10_0' type='interpolated' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[sum:Present:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[sum:Total Absent:qk]</rows>
+        <cols>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Designation:nk]</cols>
+      </table>
+      <simple-id uuid='{5FB4384F-0CF1-4F2A-A79A-A8A1C69C739A}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='97142' id='10' param='horz' type-v2='layout-flow' w='97538' x='1231' y='1429'>
+            <zone h='97142' id='7' param='horz' type-v2='layout-flow' w='53538' x='1231' y='1429'>
+              <zone h='97142' id='5' type-v2='layout-basic' w='53538' x='1231' y='1429'>
+                <zone h='48571' id='3' name='Total absent each dept' w='53538' x='1231' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='48571' id='8' name='Sheet 2' w='53538' x='1231' y='1429'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+            <zone fixed-size='286' h='97142' id='9' is-fixed='true' param='vert' type-v2='layout-flow' w='44000' x='54769' y='1429'>
+              <zone h='39643' id='12' name='Sheet 3' w='44000' x='54769' y='1429'>
+                <layout-cache fixed-size-h='214' fixed-size-w='232' type-h='fixed' type-w='fixed' />
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone fixed-size='85' h='16608' id='13' is-fixed='true' type-v2='text' w='44000' x='54769' y='41072'>
+                <formatted-text>
+                  <run>In this dashboard we can see under rocky&apos;s management had the highest leavs taken</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='7500' id='14' type-v2='text' w='44000' x='54769' y='57680'>
+                <formatted-text>
+                  <run>If you see in department Financial analyst took the highest leave</run>
+                </formatted-text>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1000' minheight='1000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97142' id='17' param='vert' type-v2='layout-flow' w='97538' x='1231' y='1429'>
+                <zone fixed-size='280' h='48571' id='8' is-fixed='true' name='Sheet 2' w='53538' x='1231' y='1429'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='39643' id='12' is-fixed='true' name='Sheet 3' w='44000' x='54769' y='1429'>
+                  <layout-cache fixed-size-h='214' fixed-size-w='232' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='85' h='16608' id='13' type-v2='text' w='44000' x='54769' y='41072'>
+                  <formatted-text>
+                    <run>In this dashboard we can see under rocky&apos;s management had the highest leavs taken</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48571' id='3' is-fixed='true' name='Total absent each dept' w='53538' x='1231' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='7500' id='14' type-v2='text' w='44000' x='54769' y='57680'>
+                  <formatted-text>
+                    <run>If you see in department Financial analyst took the highest leave</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{0FE9AD6F-9957-40BA-8B1E-293E87B0CFDD}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Total absent each dept'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[sum:Present:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Designation:nk]</field>
+            <field>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Manager:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{C838E3BB-6394-412F-A931-4CAF044361F7}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[cnt:Employee Name:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[cnt:Employee Name:qk]</field>
+            <field>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Manager:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2D6797FF-AD06-4357-98DE-677E164163EF}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0khhhu60k5odaw11ga3u10tg5aaf].[sum:Total Absent:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0khhhu60k5odaw11ga3u10tg5aaf].[none:Manager:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6E7174EE-8B86-47AB-B69B-D74A4C04FC64}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 2' />
+        <viewpoint name='Sheet 3' />
+        <viewpoint name='Total absent each dept'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{BD21FEC8-6E5E-4297-864D-FA6F97C9269E}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+      eAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+    <thumbnail height='156' name='Sheet 3' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Total absent each dept' width='192'>
+      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
+      Y/8AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
